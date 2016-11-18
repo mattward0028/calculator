@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+<div class="container" id="calc-body">
+		<form name="calculator" id="calculator">
+				<input type="text" name="answer" id="screen"/>
+				<br />
+
+				<input type="button" value=" 7 " onclick="calculator.answer.value += '7'"  id="button1"/>
+				<input type="button" value=" 8 " onclick="calculator.answer.value += '8'"  id="button"/>
+				<input type="button" value=" 9 " onclick="calculator.answer.value += '9'"  id="button"/>
+				<input type="button" value=" - " onclick="calculator.answer.value += '-'"  id="button"/>
+				<br />
+
+				<input type="button" value=" 4 " onclick="calculator.answer.value += '4'"  id="button1"/>
+				<input type="button" value=" 5 " onclick="calculator.answer.value += '5'"  id="button"/>
+				<input type="button" value=" 6 " onclick="calculator.answer.value += '6'"  id="button"/>
+				<input type="button" value=" * " onclick="calculator.answer.value += '*'"  id="button"/>
+				<br />
+
+				<input type="button" value=" 1 " onclick="calculator.answer.value += '1'"  id="button1"/>
+				<input type="button" value=" 2 " onclick="calculator.answer.value += '2'"  id="button"/>
+				<input type="button" value=" 3 " onclick="calculator.answer.value += '3'"  id="button"/>
+				<input type="button" value=" + " onclick="calculator.answer.value += '+'"  id="button"/>
+				<br />
+
+				<input type="button" value=" c " onclick="calculator.answer.value = ''"   id="button1"/>
+				<input type="button" value=" 0 " onclick="calculator.answer.value += '0'"  id="button"/>
+				<input type="button" value=" / " onclick="calculator.answer.value += '/'"  id="button"/>
+				<input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)"  id="button"/>
+				<br />
+
+		</form>
+</div>
+</body>
+
+</html>
